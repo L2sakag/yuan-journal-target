@@ -1,0 +1,55 @@
+name: Update Palace Studio Notion feed
+
+"on":
+  schedule:
+    # 00:10 UTC = 09:10 JST; Tuesday + Friday gives a 3–4 day cadence.
+    - cron: "10 0 * * 2,5"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/palacestudio-notion-feed.yml"
+      - "rental-watch/palacestudio/monitor.py.b64.*"
+      - "rental-watch/palacestudio/index.html.b64"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: palacestudio-notion-feed
+  cancel-in-progress: false
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Assemble monitor and dashboard
+        run: |
+          cat rental-watch/palacestudio/monitor.py.b64.* | base64 --decode > "$RUNNER_TEMP/monitor.py"
+          base64 --decode rental-watch/palacestudio/index.html.b64 > rental-watch/palacestudio/index.html
+          python -m py_compile "$RUNNER_TEMP/monitor.py"
+      - name: Check public rental pages
+        run: |
+          python "$RUNNER_TEMP/monitor.py" \
+            --state rental-watch/palacestudio/state.json \
+            --events rental-watch/palacestudio/events.json \
+            --status rental-watch/palacestudio/status.json
+      - name: Publish dashboard data
+        run: |
+          git add rental-watch/palacestudio/index.html \
+                  rental-watch/palacestudio/state.json \
+                  rental-watch/palacestudio/events.json \
+                  rental-watch/palacestudio/status.json
+          if git diff --cached --quiet; then
+            echo "No dashboard change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh rental dashboard [skip ci]"
+          git push
