@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>パレステュディオ本郷後楽園｜空室追踪</title>
+  <style>
+    :root{color-scheme:light;--bg:#f7f8fa;--card:#fff;--text:#202124;--muted:#6b7280;--line:#e5e7eb;--good:#217a4b;--warn:#a15c00;--bad:#a33a3a;--blue:#315b8a}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC","Noto Sans JP",sans-serif;color:var(--text)}
+    main{max-width:980px;margin:0 auto;padding:18px}.hero,.card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+    .hero{padding:20px}.eyebrow{font-size:12px;color:var(--muted);letter-spacing:.06em}.title{font-size:21px;font-weight:750;margin:3px 0 10px}.status{display:flex;gap:10px;align-items:flex-start;padding:13px 14px;border-radius:11px;background:#edf6f1}.status.warn{background:#fff4df}.status.uncertain{background:#f4f4f5}.dot{width:10px;height:10px;border-radius:50%;margin-top:6px;background:var(--good);flex:none}.warn .dot{background:var(--warn)}.uncertain .dot{background:var(--muted)}
+    .status-title{font-size:17px;font-weight:750}.status-summary{color:#3f4a45;margin-top:2px}.meta{margin-top:11px;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap}
+    .grid{display:grid;grid-template-columns:1.35fr .9fr;gap:14px;margin-top:14px}.card{padding:16px}.card h2{font-size:15px;margin:0 0 12px}.source{display:grid;grid-template-columns:minmax(145px,1fr) 115px minmax(130px,1.1fr);gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}.source:first-of-type{border-top:0}.source a{color:var(--blue);font-weight:650;text-decoration:none}.badge{display:inline-block;width:max-content;padding:3px 8px;border-radius:999px;background:#f1f5f9;color:#475569;font-size:12px}.badge.good{background:#e8f4ed;color:var(--good)}.badge.warn{background:#fff0cf;color:var(--warn)}.badge.bad{background:#fdeaea;color:var(--bad)}.detail{font-size:12px;color:var(--muted)}
+    .event{padding:10px 0;border-top:1px solid var(--line)}.event:first-of-type{border-top:0}.event-head{display:flex;justify-content:space-between;gap:10px}.event-type{font-weight:700}.event-time{font-size:12px;color:var(--muted);white-space:nowrap}.event-summary{font-size:13px;color:#4b5563;margin-top:3px}.empty{color:var(--muted);padding:12px 0}
+    .foot{font-size:12px;color:var(--muted);margin-top:12px}.error{padding:18px;background:#fff;border:1px solid var(--line);border-radius:14px;color:var(--bad)}
+    @media(max-width:740px){.grid{grid-template-columns:1fr}.source{grid-template-columns:1fr auto}.source .detail{grid-column:1/-1}.title{font-size:18px}main{padding:10px}}
+  </style>
+</head>
+<body>
+<main id="app"><div class="card">正在读取最新监控状态…</div></main>
+<script>
+const STATUS_URL='status.json';
+const fmtDate=s=>{if(!s)return '—';try{return new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}).format(new Date(s))+' JST'}catch{return s}};
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const statusClass=s=>s==='no_vacancy'?'good':s==='potential_vacancy'||s==='attention'?'warn':s==='error'?'bad':'';
+const heroClass=s=>s==='potential_vacancy'||s==='attention'?'warn':s==='uncertain'?'uncertain':'';
+function render(d){
+  const sources=(d.sources||[]).map(x=>`<div class="source"><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a><span class="badge ${statusClass(x.status)}">${esc(x.status_label)}</span><div class="detail">${esc(x.detail)}${x.mode==='secondary'?' · 辅助来源':''}</div></div>`).join('');
+  const events=(d.events||[]).slice(0,8).map(e=>`<div class="event"><div class="event-head"><span class="event-type">${esc(e.type)} · ${esc(e.source)}</span><span class="event-time">${esc(fmtDate(e.occurred_at))}</span></div><div class="event-summary">${esc(e.summary)}</div>${e.url?`<div class="detail"><a href="${esc(e.url)}" target="_blank" rel="noopener">打开原始页面</a></div>`:''}</div>`).join('')||'<div class="empty">尚无重点变化记录。</div>';
+  document.getElementById('app').innerHTML=`
+  <section class="hero"><div class="eyebrow">RENTAL AVAILABILITY WATCH</div><div class="title">${esc(d.building)}</div><div class="status ${heroClass(d.overall_status)}"><span class="dot"></span><div><div class="status-title">${esc(d.overall_label)}</div><div class="status-summary">${esc(d.overall_summary)}</div></div></div><div class="meta"><span>最近检查：${esc(fmtDate(d.checked_at_jst||d.checked_at_utc))}</span><span>频率：${esc(d.schedule)}</span><span>本次重点变化：${Number(d.new_event_count||0)} 项</span></div></section>
+  <div class="grid"><section class="card"><h2>来源状态</h2>${sources}</section><section class="card"><h2>最近重点事件</h2>${events}</section></div>
+  <div class="foot">自动初筛不等于房源仍可申请。出现“疑似空房”后，应打开原页面并向中介确认。页面每 30 分钟自动刷新一次。</div>`;
+}
+async function load(){try{const r=await fetch(STATUS_URL+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);render(await r.json())}catch(e){document.getElementById('app').innerHTML=`<div class="error">暂时无法读取监控数据：${esc(e.message)}</div>`}}
+load();setInterval(load,30*60*1000);
+</script>
+</body>
+</html>
