@@ -2,8 +2,8 @@
   "schema_version": 1,
   "building": "パレステュディオ本郷後楽園",
   "address": "東京都文京区本郷1丁目33-14",
-  "checked_at_utc": "2026-08-27T12:38:16+00:00",
-  "checked_at_jst": "2026-08-27T21:38+09:00",
+  "checked_at_utc": "2026-08-28T03:21:37+00:00",
+  "checked_at_jst": "2026-08-28T12:21+09:00",
   "schedule": "每周二、周五 09:10 JST",
   "overall_status": "no_vacancy",
   "overall_label": "暂无确认空房",
@@ -17,8 +17,8 @@
       "mode": "reliable",
       "status": "no_vacancy",
       "status_label": "无公开空房",
-      "detail": "首次建立基线",
-      "last_success_at": "2026-08-27T12:38:16+00:00",
+      "detail": "无实质变化",
+      "last_success_at": "2026-08-28T03:21:37+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [
@@ -57,8 +57,8 @@
       "mode": "reliable",
       "status": "no_vacancy",
       "status_label": "无公开空房",
-      "detail": "首次建立基线",
-      "last_success_at": "2026-08-27T12:38:16+00:00",
+      "detail": "无实质变化",
+      "last_success_at": "2026-08-28T03:21:37+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [],
@@ -90,8 +90,8 @@
       "mode": "reliable",
       "status": "no_vacancy",
       "status_label": "无公开空房",
-      "detail": "首次建立基线",
-      "last_success_at": "2026-08-27T12:38:16+00:00",
+      "detail": "无实质变化",
+      "last_success_at": "2026-08-28T03:21:37+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
@@ -141,8 +141,8 @@
       "mode": "reliable",
       "status": "no_vacancy",
       "status_label": "无公开空房",
-      "detail": "首次建立基线",
-      "last_success_at": "2026-08-27T12:38:16+00:00",
+      "detail": "无实质变化",
+      "last_success_at": "2026-08-28T03:21:37+00:00",
       "facts": {
         "amounts_yen": [
           "126,000",
@@ -178,8 +178,8 @@
       "mode": "secondary",
       "status": "potential_vacancy",
       "status_label": "疑似有房",
-      "detail": "首次建立基线",
-      "last_success_at": "2026-08-27T12:38:16+00:00",
+      "detail": "无实质变化",
+      "last_success_at": "2026-08-28T03:21:37+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
