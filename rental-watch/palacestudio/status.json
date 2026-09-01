@@ -2,13 +2,13 @@
   "schema_version": 1,
   "building": "パレステュディオ本郷後楽園",
   "address": "東京都文京区本郷1丁目33-14",
-  "checked_at_utc": "2026-08-28T03:21:37+00:00",
-  "checked_at_jst": "2026-08-28T12:21+09:00",
+  "checked_at_utc": "2026-09-01T01:07:03+00:00",
+  "checked_at_jst": "2026-09-01T10:07+09:00",
   "schedule": "每周二、周五 09:10 JST",
   "overall_status": "no_vacancy",
   "overall_label": "暂无确认空房",
   "overall_summary": "本次检查未发现可靠来源正在公开募集房间。",
-  "new_event_count": 0,
+  "new_event_count": 1,
   "sources": [
     {
       "key": "lifull_homes",
@@ -18,7 +18,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-08-28T03:21:37+00:00",
+      "last_success_at": "2026-09-01T01:07:03+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [
@@ -58,7 +58,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-08-28T03:21:37+00:00",
+      "last_success_at": "2026-09-01T01:07:03+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [],
@@ -91,7 +91,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-08-28T03:21:37+00:00",
+      "last_success_at": "2026-09-01T01:07:03+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
@@ -105,16 +105,17 @@
           "9.95",
           "10.7",
           "20.3",
-          "23.0",
+          "20.8",
           "28.0",
           "57.0"
         ],
         "floors": [
           "1",
+          "2",
           "3",
           "4",
           "5",
-          "8",
+          "10",
           "12"
         ],
         "areas_sqm": [
@@ -142,12 +143,12 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-08-28T03:21:37+00:00",
+      "last_success_at": "2026-09-01T01:07:03+00:00",
       "facts": {
         "amounts_yen": [
-          "126,000",
+          "123,000",
           "130,000",
-          "232,000",
+          "215,000",
           "250,000",
           "270,000",
           "300,000",
@@ -179,7 +180,7 @@
       "status": "potential_vacancy",
       "status_label": "疑似有房",
       "detail": "无实质变化",
-      "last_success_at": "2026-08-28T03:21:37+00:00",
+      "last_success_at": "2026-09-01T01:07:03+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
@@ -218,6 +219,15 @@
     }
   ],
   "events": [
+    {
+      "occurred_at": "2026-09-01T10:07+09:00",
+      "type": "来源异常",
+      "source": "Airdoor",
+      "status": "error",
+      "summary": "连续 3 次无法读取该来源；其余来源继续正常监控。",
+      "url": "https://airdoor.jp/building/29924",
+      "facts": {}
+    },
     {
       "occurred_at": "2026-08-27T19:56+09:00",
       "type": "监控基线",

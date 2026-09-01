@@ -1,5 +1,14 @@
 [
   {
+    "occurred_at": "2026-09-01T10:07+09:00",
+    "type": "来源异常",
+    "source": "Airdoor",
+    "status": "error",
+    "summary": "连续 3 次无法读取该来源；其余来源继续正常监控。",
+    "url": "https://airdoor.jp/building/29924",
+    "facts": {}
+  },
+  {
     "occurred_at": "2026-08-27T19:56+09:00",
     "type": "监控基线",
     "source": "综合",
