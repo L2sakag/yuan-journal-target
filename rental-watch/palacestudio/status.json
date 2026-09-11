@@ -2,8 +2,8 @@
   "schema_version": 1,
   "building": "パレステュディオ本郷後楽園",
   "address": "東京都文京区本郷1丁目33-14",
-  "checked_at_utc": "2026-09-08T00:56:59+00:00",
-  "checked_at_jst": "2026-09-08T09:56+09:00",
+  "checked_at_utc": "2026-09-11T00:53:57+00:00",
+  "checked_at_jst": "2026-09-11T09:53+09:00",
   "schedule": "每周二、周五 09:10 JST",
   "overall_status": "no_vacancy",
   "overall_label": "暂无确认空房",
@@ -18,7 +18,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-08T00:56:59+00:00",
+      "last_success_at": "2026-09-11T00:53:57+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [
@@ -58,7 +58,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-08T00:56:59+00:00",
+      "last_success_at": "2026-09-11T00:53:57+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [],
@@ -91,7 +91,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-08T00:56:59+00:00",
+      "last_success_at": "2026-09-11T00:53:57+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
@@ -115,8 +115,12 @@
           "3",
           "4",
           "5",
+          "8",
           "9",
-          "12"
+          "11",
+          "12",
+          "13",
+          "14"
         ],
         "areas_sqm": [
           "20.4"
@@ -143,18 +147,18 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-08T00:56:59+00:00",
+      "last_success_at": "2026-09-11T00:53:57+00:00",
       "facts": {
         "amounts_yen": [
-          "119,000",
-          "130,000",
-          "240,000",
-          "250,000",
+          "129,000",
+          "132,000",
+          "134,000",
+          "164,600",
+          "185,000",
+          "203,000",
+          "213,000",
           "270,000",
-          "300,000",
-          "345,000",
-          "430,000",
-          "560,000"
+          "310,000"
         ],
         "amounts_man_yen": [],
         "floors": [
@@ -180,7 +184,7 @@
       "status": "potential_vacancy",
       "status_label": "疑似有房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-08T00:56:59+00:00",
+      "last_success_at": "2026-09-11T00:53:57+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
