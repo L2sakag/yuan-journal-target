@@ -2,8 +2,8 @@
   "schema_version": 1,
   "building": "パレステュディオ本郷後楽園",
   "address": "東京都文京区本郷1丁目33-14",
-  "checked_at_utc": "2026-09-15T00:56:53+00:00",
-  "checked_at_jst": "2026-09-15T09:56+09:00",
+  "checked_at_utc": "2026-09-18T00:55:36+00:00",
+  "checked_at_jst": "2026-09-18T09:55+09:00",
   "schedule": "每周二、周五 09:10 JST",
   "overall_status": "no_vacancy",
   "overall_label": "暂无确认空房",
@@ -18,7 +18,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [
@@ -57,7 +57,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [],
@@ -90,7 +90,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
@@ -98,7 +98,6 @@
           "9,000"
         ],
         "amounts_man_yen": [
-          "1.0",
           "1.5",
           "2.0",
           "8.9",
@@ -114,8 +113,6 @@
           "2",
           "3",
           "4",
-          "5",
-          "8",
           "9",
           "11",
           "12",
@@ -146,15 +143,15 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
       "facts": {
         "amounts_yen": [
+          "90,000",
           "143,000",
           "148,000",
           "164,000",
           "175,000",
           "188,000",
-          "200,000",
           "213,000",
           "217,000",
           "250,000"
@@ -183,7 +180,7 @@
       "status": "potential_vacancy",
       "status_label": "疑似有房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",

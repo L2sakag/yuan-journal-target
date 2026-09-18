@@ -39,8 +39,8 @@
         "positive_pattern_count": 0
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
-      "last_checked_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
+      "last_checked_at": "2026-09-18T00:55:36+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -75,8 +75,8 @@
         "positive_pattern_count": 0
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
-      "last_checked_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
+      "last_checked_at": "2026-09-18T00:55:36+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -94,7 +94,6 @@
           "9,000"
         ],
         "amounts_man_yen": [
-          "1.0",
           "1.5",
           "2.0",
           "8.9",
@@ -110,8 +109,6 @@
           "2",
           "3",
           "4",
-          "5",
-          "8",
           "9",
           "11",
           "12",
@@ -134,8 +131,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
-      "last_checked_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
+      "last_checked_at": "2026-09-18T00:55:36+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -148,12 +145,12 @@
       "signature": "a3718b270a96bd85855a",
       "facts": {
         "amounts_yen": [
+          "90,000",
           "143,000",
           "148,000",
           "164,000",
           "175,000",
           "188,000",
-          "200,000",
           "213,000",
           "217,000",
           "250,000"
@@ -174,8 +171,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
-      "last_checked_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
+      "last_checked_at": "2026-09-18T00:55:36+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -211,8 +208,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-15T00:56:53+00:00",
-      "last_checked_at": "2026-09-15T00:56:53+00:00",
+      "last_success_at": "2026-09-18T00:55:36+00:00",
+      "last_checked_at": "2026-09-18T00:55:36+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -222,8 +219,8 @@
       "url": "https://airdoor.jp/building/29924",
       "mode": "secondary",
       "error": "HTTP 403",
-      "error_streak": 7,
-      "last_checked_at": "2026-09-15T00:56:53+00:00"
+      "error_streak": 8,
+      "last_checked_at": "2026-09-18T00:55:36+00:00"
     }
   }
 }
