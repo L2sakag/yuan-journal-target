@@ -39,8 +39,8 @@
         "positive_pattern_count": 0
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-18T00:55:36+00:00",
-      "last_checked_at": "2026-09-18T00:55:36+00:00",
+      "last_success_at": "2026-09-22T00:55:56+00:00",
+      "last_checked_at": "2026-09-22T00:55:56+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -75,8 +75,8 @@
         "positive_pattern_count": 0
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-18T00:55:36+00:00",
-      "last_checked_at": "2026-09-18T00:55:36+00:00",
+      "last_success_at": "2026-09-22T00:55:56+00:00",
+      "last_checked_at": "2026-09-22T00:55:56+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -99,16 +99,18 @@
           "8.9",
           "9.95",
           "10.7",
+          "18.5",
           "21.0",
           "25.0",
           "28.0",
-          "57.0"
+          "37.0"
         ],
         "floors": [
           "1",
           "2",
           "3",
           "4",
+          "6",
           "9",
           "11",
           "12",
@@ -120,8 +122,7 @@
         "layouts": [
           "1K",
           "1LDK",
-          "2LDK",
-          "3LDK"
+          "2LDK"
         ],
         "vacancy_counts": [],
         "dates": [],
@@ -131,8 +132,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-18T00:55:36+00:00",
-      "last_checked_at": "2026-09-18T00:55:36+00:00",
+      "last_success_at": "2026-09-22T00:55:56+00:00",
+      "last_checked_at": "2026-09-22T00:55:56+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -145,15 +146,14 @@
       "signature": "a3718b270a96bd85855a",
       "facts": {
         "amounts_yen": [
-          "90,000",
+          "98,000",
+          "129,000",
+          "133,000",
           "143,000",
-          "148,000",
-          "164,000",
-          "175,000",
-          "188,000",
-          "213,000",
-          "217,000",
-          "250,000"
+          "179,000",
+          "189,000",
+          "203,000",
+          "264,000"
         ],
         "amounts_man_yen": [],
         "floors": [
@@ -171,8 +171,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-18T00:55:36+00:00",
-      "last_checked_at": "2026-09-18T00:55:36+00:00",
+      "last_success_at": "2026-09-22T00:55:56+00:00",
+      "last_checked_at": "2026-09-22T00:55:56+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -208,8 +208,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-09-18T00:55:36+00:00",
-      "last_checked_at": "2026-09-18T00:55:36+00:00",
+      "last_success_at": "2026-09-22T00:55:56+00:00",
+      "last_checked_at": "2026-09-22T00:55:56+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -219,8 +219,8 @@
       "url": "https://airdoor.jp/building/29924",
       "mode": "secondary",
       "error": "HTTP 403",
-      "error_streak": 8,
-      "last_checked_at": "2026-09-18T00:55:36+00:00"
+      "error_streak": 9,
+      "last_checked_at": "2026-09-22T00:55:56+00:00"
     }
   }
 }
