@@ -2,8 +2,8 @@
   "schema_version": 1,
   "building": "パレステュディオ本郷後楽園",
   "address": "東京都文京区本郷1丁目33-14",
-  "checked_at_utc": "2026-09-25T00:56:00+00:00",
-  "checked_at_jst": "2026-09-25T09:56+09:00",
+  "checked_at_utc": "2026-09-29T01:01:20+00:00",
+  "checked_at_jst": "2026-09-29T10:01+09:00",
   "schedule": "每周二、周五 09:10 JST",
   "overall_status": "no_vacancy",
   "overall_label": "暂无确认空房",
@@ -18,7 +18,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-25T00:56:00+00:00",
+      "last_success_at": "2026-09-29T01:01:20+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [
@@ -57,7 +57,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-25T00:56:00+00:00",
+      "last_success_at": "2026-09-29T01:01:20+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [],
@@ -90,7 +90,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-25T00:56:00+00:00",
+      "last_success_at": "2026-09-29T01:01:20+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
@@ -105,7 +105,7 @@
           "10.7",
           "18.5",
           "21.0",
-          "25.0",
+          "24.5",
           "28.0",
           "37.0"
         ],
@@ -144,18 +144,18 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-25T00:56:00+00:00",
+      "last_success_at": "2026-09-29T01:01:20+00:00",
       "facts": {
         "amounts_yen": [
-          "98,000",
           "114,800",
-          "129,000",
           "130,000",
           "152,000",
+          "153,000",
+          "155,000",
           "164,000",
-          "179,000",
-          "220,000",
-          "360,000"
+          "175,000",
+          "194,000",
+          "196,000"
         ],
         "amounts_man_yen": [],
         "floors": [
@@ -181,7 +181,7 @@
       "status": "potential_vacancy",
       "status_label": "疑似有房",
       "detail": "无实质变化",
-      "last_success_at": "2026-09-25T00:56:00+00:00",
+      "last_success_at": "2026-09-29T01:01:20+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
