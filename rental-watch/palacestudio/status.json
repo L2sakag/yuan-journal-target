@@ -2,8 +2,8 @@
   "schema_version": 1,
   "building": "パレステュディオ本郷後楽園",
   "address": "東京都文京区本郷1丁目33-14",
-  "checked_at_utc": "2026-10-06T00:59:32+00:00",
-  "checked_at_jst": "2026-10-06T09:59+09:00",
+  "checked_at_utc": "2026-10-09T01:04:09+00:00",
+  "checked_at_jst": "2026-10-09T10:04+09:00",
   "schedule": "每周二、周五 09:10 JST",
   "overall_status": "no_vacancy",
   "overall_label": "暂无确认空房",
@@ -18,7 +18,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-10-06T00:59:32+00:00",
+      "last_success_at": "2026-10-09T01:04:09+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [
@@ -57,7 +57,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-10-06T00:59:32+00:00",
+      "last_success_at": "2026-10-09T01:04:09+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [],
@@ -90,7 +90,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-10-06T00:59:32+00:00",
+      "last_success_at": "2026-10-09T01:04:09+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
@@ -144,15 +144,15 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-10-06T00:59:32+00:00",
+      "last_success_at": "2026-10-09T01:04:09+00:00",
       "facts": {
         "amounts_yen": [
           "98,000",
+          "123,000",
           "129,000",
           "133,000",
-          "145,000",
           "160,000",
-          "220,200",
+          "197,000",
           "261,000",
           "264,000"
         ],
@@ -180,7 +180,7 @@
       "status": "potential_vacancy",
       "status_label": "疑似有房",
       "detail": "无实质变化",
-      "last_success_at": "2026-10-06T00:59:32+00:00",
+      "last_success_at": "2026-10-09T01:04:09+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
