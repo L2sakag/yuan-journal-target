@@ -41,10 +41,10 @@
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
       "last_success_at": "2026-10-30T00:42:34+00:00",
-      "last_checked_at": "2026-10-30T00:42:34+00:00",
+      "last_checked_at": "2026-11-03T00:34:36+00:00",
       "last_event_signature": null,
-      "error": null,
-      "error_streak": 0
+      "error": "HTTP 502",
+      "error_streak": 1
     },
     "tokyu_livable": {
       "name": "東急リバブル",
@@ -76,8 +76,8 @@
         "positive_pattern_count": 0
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-10-30T00:42:34+00:00",
-      "last_checked_at": "2026-10-30T00:42:34+00:00",
+      "last_success_at": "2026-11-03T00:34:36+00:00",
+      "last_checked_at": "2026-11-03T00:34:36+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -95,19 +95,19 @@
           "9,000"
         ],
         "amounts_man_yen": [
-          "1.0",
           "1.1",
+          "1.5",
           "2.0",
           "8.9",
           "9.95",
           "10.5",
           "10.7",
-          "18.5",
+          "18.0",
           "21.0",
           "24.0",
           "27.0",
           "28.0",
-          "37.0"
+          "36.0"
         ],
         "floors": [
           "1",
@@ -137,8 +137,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-10-30T00:42:34+00:00",
-      "last_checked_at": "2026-10-30T00:42:34+00:00",
+      "last_success_at": "2026-11-03T00:34:36+00:00",
+      "last_checked_at": "2026-11-03T00:34:36+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -151,14 +151,14 @@
       "signature": "a3718b270a96bd85855a",
       "facts": {
         "amounts_yen": [
+          "90,000",
           "108,000",
-          "145,000",
           "159,000",
-          "160,000",
+          "182,000",
+          "190,000",
           "196,000",
-          "199,000",
-          "200,000",
-          "310,000",
+          "198,000",
+          "320,000",
           "375,000"
         ],
         "amounts_man_yen": [],
@@ -177,8 +177,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-10-30T00:42:34+00:00",
-      "last_checked_at": "2026-10-30T00:42:34+00:00",
+      "last_success_at": "2026-11-03T00:34:36+00:00",
+      "last_checked_at": "2026-11-03T00:34:36+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -214,8 +214,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-10-30T00:42:34+00:00",
-      "last_checked_at": "2026-10-30T00:42:34+00:00",
+      "last_success_at": "2026-11-03T00:34:36+00:00",
+      "last_checked_at": "2026-11-03T00:34:36+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -225,8 +225,8 @@
       "url": "https://airdoor.jp/building/29924",
       "mode": "secondary",
       "error": "HTTP 403",
-      "error_streak": 20,
-      "last_checked_at": "2026-10-30T00:42:34+00:00"
+      "error_streak": 21,
+      "last_checked_at": "2026-11-03T00:34:36+00:00"
     }
   }
 }

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "building": "パレステュディオ本郷後楽園",
   "address": "東京都文京区本郷1丁目33-14",
-  "checked_at_utc": "2026-10-30T00:42:34+00:00",
-  "checked_at_jst": "2026-10-30T09:42+09:00",
+  "checked_at_utc": "2026-11-03T00:34:36+00:00",
+  "checked_at_jst": "2026-11-03T09:34+09:00",
   "schedule": "每周二、周五 09:10 JST",
   "overall_status": "no_vacancy",
   "overall_label": "暂无确认空房",
@@ -15,9 +15,9 @@
       "name": "LIFULL HOME'S",
       "url": "https://www.homes.co.jp/archive/b-29244695/",
       "mode": "reliable",
-      "status": "no_vacancy",
-      "status_label": "无公开空房",
-      "detail": "无实质变化",
+      "status": "error",
+      "status_label": "获取失败",
+      "detail": "HTTP 502；保留上次成功判定",
       "last_success_at": "2026-10-30T00:42:34+00:00",
       "facts": {
         "amounts_yen": [],
@@ -58,7 +58,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-10-30T00:42:34+00:00",
+      "last_success_at": "2026-11-03T00:34:36+00:00",
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [],
@@ -91,7 +91,7 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-10-30T00:42:34+00:00",
+      "last_success_at": "2026-11-03T00:34:36+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
@@ -99,19 +99,19 @@
           "9,000"
         ],
         "amounts_man_yen": [
-          "1.0",
           "1.1",
+          "1.5",
           "2.0",
           "8.9",
           "9.95",
           "10.5",
           "10.7",
-          "18.5",
+          "18.0",
           "21.0",
           "24.0",
           "27.0",
           "28.0",
-          "37.0"
+          "36.0"
         ],
         "floors": [
           "1",
@@ -149,17 +149,17 @@
       "status": "no_vacancy",
       "status_label": "无公开空房",
       "detail": "无实质变化",
-      "last_success_at": "2026-10-30T00:42:34+00:00",
+      "last_success_at": "2026-11-03T00:34:36+00:00",
       "facts": {
         "amounts_yen": [
+          "90,000",
           "108,000",
-          "145,000",
           "159,000",
-          "160,000",
+          "182,000",
+          "190,000",
           "196,000",
-          "199,000",
-          "200,000",
-          "310,000",
+          "198,000",
+          "320,000",
           "375,000"
         ],
         "amounts_man_yen": [],
@@ -186,7 +186,7 @@
       "status": "potential_vacancy",
       "status_label": "疑似有房",
       "detail": "无实质变化",
-      "last_success_at": "2026-10-30T00:42:34+00:00",
+      "last_success_at": "2026-11-03T00:34:36+00:00",
       "facts": {
         "amounts_yen": [
           "5,000",
