@@ -12,6 +12,7 @@
       "facts": {
         "amounts_yen": [],
         "amounts_man_yen": [
+          "9.3",
           "9.4",
           "10.7"
         ],
@@ -34,14 +35,13 @@
         "dates": [],
         "negative_phrases": [
           "募集中 0 件",
-          "募集中0件",
-          "当サイト内で募集中の部屋情報はありません"
+          "募集中0件"
         ],
         "positive_pattern_count": 0
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-11-10T00:34:06+00:00",
-      "last_checked_at": "2026-11-10T00:34:06+00:00",
+      "last_success_at": "2026-11-13T00:35:51+00:00",
+      "last_checked_at": "2026-11-13T00:35:51+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -76,8 +76,8 @@
         "positive_pattern_count": 0
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-11-10T00:34:06+00:00",
-      "last_checked_at": "2026-11-10T00:34:06+00:00",
+      "last_success_at": "2026-11-13T00:35:51+00:00",
+      "last_checked_at": "2026-11-13T00:35:51+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -136,10 +136,10 @@
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
       "last_success_at": "2026-11-06T00:35:09+00:00",
-      "last_checked_at": "2026-11-10T00:34:06+00:00",
+      "last_checked_at": "2026-11-13T00:35:51+00:00",
       "last_event_signature": null,
       "error": "HTTP 429",
-      "error_streak": 1
+      "error_streak": 2
     },
     "royal_community": {
       "name": "Royal Community",
@@ -149,15 +149,14 @@
       "signature": "a3718b270a96bd85855a",
       "facts": {
         "amounts_yen": [
-          "113,500",
+          "129,000",
+          "130,000",
+          "146,000",
           "150,000",
-          "152,000",
-          "154,000",
-          "164,000",
-          "196,000",
-          "200,200",
-          "207,000",
-          "320,000"
+          "160,000",
+          "167,000",
+          "197,000",
+          "430,000"
         ],
         "amounts_man_yen": [],
         "floors": [
@@ -175,8 +174,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-11-10T00:34:06+00:00",
-      "last_checked_at": "2026-11-10T00:34:06+00:00",
+      "last_success_at": "2026-11-13T00:35:51+00:00",
+      "last_checked_at": "2026-11-13T00:35:51+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -212,8 +211,8 @@
         "positive_pattern_count": 1
       },
       "first_observed_at": "2026-08-27T12:38:16+00:00",
-      "last_success_at": "2026-11-10T00:34:06+00:00",
-      "last_checked_at": "2026-11-10T00:34:06+00:00",
+      "last_success_at": "2026-11-13T00:35:51+00:00",
+      "last_checked_at": "2026-11-13T00:35:51+00:00",
       "last_event_signature": null,
       "error": null,
       "error_streak": 0
@@ -223,8 +222,8 @@
       "url": "https://airdoor.jp/building/29924",
       "mode": "secondary",
       "error": "HTTP 403",
-      "error_streak": 23,
-      "last_checked_at": "2026-11-10T00:34:06+00:00"
+      "error_streak": 24,
+      "last_checked_at": "2026-11-13T00:35:51+00:00"
     }
   }
 }
