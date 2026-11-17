@@ -1,5 +1,14 @@
 [
   {
+    "occurred_at": "2026-11-17T09:36+09:00",
+    "type": "来源异常",
+    "source": "賃貸スモッカ",
+    "status": "error",
+    "summary": "连续 3 次无法读取该来源；其余来源继续正常监控。",
+    "url": "https://smocca.jp/building/1a533f23-d59c-428a-864b-1072c8509ab9",
+    "facts": {}
+  },
+  {
     "occurred_at": "2026-09-01T10:07+09:00",
     "type": "来源异常",
     "source": "Airdoor",
